@@ -70,8 +70,6 @@ flowchart LR
 
 ### Modèle de données
 
-> ⚠️ [À VÉRIFIER : ce schéma doit correspondre exactement aux `CREATE TABLE` de `commun/database.py`. Corrige les noms de tables, de colonnes et les relations si besoin.]
-
 ```mermaid
 erDiagram
     MISSION ||--o{ SATELLITE : "regroupe"
