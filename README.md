@@ -56,11 +56,11 @@ Chaque module est un package Python indépendant. Tous s'appuient sur `commun/` 
 
 ```mermaid
 flowchart LR
-    A["main.py<br/>Point d'entrée"] --> B["splash.py<br/>Écran de démarrage"]
-    C --> D["dashboard"]
-    C --> E["etudiant_evenements"]
-    C --> F["etudiant_missions"]
-    C --> G["etudiant_satellites"]
+    
+     A["main.py<br/>Point d'entrée"]  --> D["dashboard"]
+     A["main.py<br/>Point d'entrée"]  --> E["evenements"]
+     A["main.py<br/>Point d'entrée"]  --> F["missions"]
+     A["main.py<br/>Point d'entrée"] --> G["satellites"]
     D & E & F & G --> H["commun<br/>config, theme, widgets"]
     D & E & F & G --> I[("gestion_satellites.db<br/>SQLite")]
     J["seed.py<br/>Données de départ"] --> I
