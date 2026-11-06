@@ -1,0 +1,22 @@
+# Fichiers de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyc
+
+# Base de données locale (ne jamais envoyer sur GitHub)
+*.db
+*.sqlite
+*.sqlite3
+gestion_satellites.db
+
+# Fichiers de configuration personnelle
+.env
+*.log
+
+# Éditeurs de code
+.vscode/
+.idea/
+*.swp
+*.swo
