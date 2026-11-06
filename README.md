@@ -1,6 +1,5 @@
 # SatGuard - Gestion des missions des satellites..
-<img width="637" height="337" alt="image" src="https://github.com/user-attachments/assets/436ead07-b26d-4d8a-8d54-1cef1f2b974c" />
-
+<img width="609" height="243" alt="image" src="https://github.com/user-attachments/assets/eaebce6c-81b8-4af7-aa4b-e472b33174a9" />
 
 Application de bureau permettant de gérer des satellites, les missions auxquelles ils sont rattachés et les événements qui les concernent,
 avec une base de données locale SQLite et une interface graphique.
